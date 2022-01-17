@@ -1,4 +1,4 @@
-# Phalanx-Web
+# node-server
 
 This project use NodeJs to create a server to run applications.
 
