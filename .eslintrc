@@ -1,0 +1,42 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "node": true,
+      "jest": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "rules": {
+      "no-param-reassign": "off",
+      "function-paren-newline": "off",
+      "arrow-parens": [
+        "error",
+        "always"
+      ],
+      "arrow-body-style": [
+        2,
+        "as-needed"
+      ],
+      "comma-dangle": [
+        "error",
+        "only-multiline"
+      ],
+      "import/no-extraneous-dependencies": 0,
+      "import/prefer-default-export": 0,
+      "template-curly-spacing" : "off",
+      "indent": [
+        2,
+        2,
+        {
+          "SwitchCase": 1,
+          "ignoredNodes": ["TemplateLiteral"]
+        }
+      ],
+      "max-len": 0,
+      "no-console": 1
+    }
+  }
